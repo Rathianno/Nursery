@@ -8,7 +8,7 @@ So that:	I can easily access the users information.
 Task description: This story needs the design and implementation of a system to store user accounts with specific attributes, 
 including Id, userName, email, description, firstName, lastName, etc.
 
-Requirements Satisfied [ongoing, still in development]:
+Requirements Satisfied:
 - Store user accounts with specific attributes.
 - Ensure easy accessibility of user information.
 
@@ -18,7 +18,7 @@ Design Elements:
 
   Difference Listing:
 
-  Unit test cases:
+  Unit test cases:[ongoing, still in development]
 
 Test Case: Create User Account
 Input: Id, userName, email, description, firstName, lastName, etc.
