@@ -19,6 +19,7 @@ Design Elements:
   Difference Listing:
 
   Unit test cases:
+
 Test Case: Create User Account
 Input: Id, userName, email, description, firstName, lastName, etc.
 Expected Output: User account is successfully created in the system.
@@ -30,3 +31,11 @@ Expected Output: User information (Id, userName, email, description, firstName, 
 Test Case: Update User Account
 Input: User Id, Updated attributes (e.g., email, description)
 Expected Output: User account is successfully updated with the provided information.
+
+Test Case: Delete User Account
+Input: User Id
+Expected Output: User account is successfully deleted from the system.
+
+Test Case: Invalid Input for User Creation
+Input: Incomplete user information (e.g., missing email or firstName)
+Expected Output: Error message indicating the missing information.
